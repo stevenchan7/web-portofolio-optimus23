@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-inline: 4rem;
+}
+.header {
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 95, 182);
+  color: #fff;
+}
+.biodata {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.biodata__container {
+  display: flex;
+  justify-content: center;
+}
+.biodata__content {
+  flex-basis: 75%;
+  display: flex;
+}
+.biodata__key-container {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.biodata__value-container {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.biodata__photo-container {
+  width: 144px;
+  height: 192px;
+  overflow: hidden;
+}
+.biodata__photo {
+  width: 144px;
+  height: 192px;
+}
+
+.riwayat {
+  padding-inline: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.riwayat ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.riwayat div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pengalaman {
+  padding-inline: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pengalaman > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.pengalaman__item {
+  display: flex;
+}
+.pengalaman__item > .pengalaman__item-key {
+  flex-basis: 80%;
+}
+.pengalaman__item > .pengalaman__item-year {
+  flex-basis: 20%;
+  text-align: end;
+}
